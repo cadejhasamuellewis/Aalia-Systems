@@ -1,0 +1,58 @@
+<svg viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+  <!-- SVG Logo for Aalia Systems -->
+  <!-- Primary Color: #2B2C34 (Charcoal), Accent: #00E5FF (Cyan) -->
+  
+  <defs>
+    <linearGradient id="cyanGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00E5FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00B8D4;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glowEffect">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Main "A" Letter with Binary Pattern -->
+  <g id="letter-a">
+    <!-- Left stroke of A -->
+    <path d="M 40 240 L 120 40 L 140 40 L 220 240 Z" fill="#2B2C34" stroke="none"/>
+    
+    <!-- Right diagonal (creates the A shape) -->
+    <!-- Horizontal crossbar -->
+    <rect x="60" y="140" width="150" height="28" fill="#2B2C34" rx="4"/>
+    
+    <!-- Binary code pattern inside left side of A -->
+    <g font-family="'Space Grotesk', monospace" font-size="14" font-weight="700" fill="#00E5FF" opacity="0.6">
+      <text x="55" y="95">0</text>
+      <text x="75" y="110">1</text>
+      <text x="65" y="130">0</text>
+      <text x="85" y="145">1</text>
+    </g>
+    
+    <!-- Cyan accent glow on crossbar -->
+    <rect x="60" y="140" width="150" height="28" fill="none" stroke="#00E5FF" stroke-width="2" rx="4" opacity="0.4" filter="url(#glowEffect)"/>
+  </g>
+  
+  <!-- Dot accent (small cyan circle) above and to the right of the A -->
+  <circle cx="285" cy="65" r="18" fill="#00E5FF" filter="url(#glowEffect)"/>
+  
+  <!-- "alia" text -->
+  <g id="text-alia" font-family="'Space Grotesk', sans-serif" font-size="85" font-weight="700" fill="#2B2C34" letter-spacing="-2">
+    <text x="310" y="230">alia</text>
+  </g>
+  
+  <!-- "SYSTEMS" text with accent on the 's' -->
+  <g id="text-systems" font-family="'Space Grotesk', sans-serif" font-size="85" font-weight="700" fill="#2B2C34" letter-spacing="1">
+    <text x="805" y="230">SYSTEMS</text>
+    
+    <!-- Subtle cyan underline accent under entire word -->
+    <line x1="805" y1="250" x2="1145" y2="250" stroke="#00E5FF" stroke-width="3" opacity="0.7"/>
+  </g>
+  
+  <!-- Alternative: Curved accent line connecting A to "alia" -->
+  <path d="M 235 200 Q 270 190 310 215" stroke="#00E5FF" stroke-width="3" fill="none" opacity="0.5" stroke-linecap="round"/>
+</svg>
