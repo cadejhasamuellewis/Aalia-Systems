@@ -1,0 +1,398 @@
+Revise the current Aalia Systems website design.
+
+Do not deploy.
+Do not publish.
+Do not connect Square, Firebase, Google, analytics, or any paid service yet.
+Create a checkpoint before editing.
+
+CURRENT ISSUE:
+The design is better, but it is still too light and some dividers, borders, panels, and sections are hard to see. It needs more contrast and a more serious website management look.
+
+Also remove the phrase “Website Care” as a main label. I do not want the site to say “Website Care” in the nav, headings, plan names, or major CTAs.
+
+Use stronger wording like:
+- Website Management
+- Managed Websites
+- Website Support
+- Monthly Website Management
+- Managed Website Platform
+
+Do not use “Website Care” as the main service name.
+
+DESIGN CHANGES:
+
+1. Darken the background slightly
+
+The current background is too light and washed out.
+
+Keep the frosted/soft premium style, but increase contrast.
+
+Use:
+- deeper pearl
+- soft slate
+- ice blue-gray
+- deep aqua
+- warm charcoal
+- clean white panels
+
+Avoid:
+- flat white backgrounds
+- pale dividers that disappear
+- washed-out cream
+- gold accents
+- yellow/gold buttons
+- clip-art style icons
+
+Remove the gold accent completely.
+
+Replace gold with:
+- deep aqua
+- slate blue
+- warm charcoal
+- muted clay/terracotta only if a warm accent is needed
+
+Make:
+- section dividers more visible
+- card borders stronger
+- dashboard panels easier to read
+- buttons more confident
+- text contrast stronger
+- pricing cards visually different from one another
+
+2. Font / typography
+
+Make the typography feel more serious and premium.
+
+Use:
+- strong editorial-style headlines or refined modern sans headlines
+- clean readable body font
+- small uppercase section labels
+- better spacing
+- stronger heading hierarchy
+
+Avoid:
+- bubbly fonts
+- overly rounded fonts
+- default template feel
+- weak small headings
+
+3. Remove icon from logo
+
+The Aalia Systems logo should be text-only.
+
+Use:
+Aalia Systems
+
+Optional small subline:
+website management studio
+
+No random icon.
+No diamond.
+No sparkle.
+No clip-art mark.
+No fake app icon next to the name.
+
+SERVICE POSITIONING CHANGE:
+
+The website should clearly show that Aalia offers several ways to work:
+
+1. Website Project
+For someone who wants a website built or redesigned, then handed off.
+
+2. Managed Website
+For someone who wants Aalia to keep managing updates, domain notes, SSL checks, files, invoices, and support after launch.
+
+3. Custom Documents + Forms
+For clients who need branded documents, fillable forms, intake forms, PDFs, email templates, agreements, or business files.
+
+4. Long-Term Support Contract
+For businesses that want ongoing website, document, platform, and digital support over time.
+
+These are the main service paths.
+
+Do not make the whole site only about monthly management.
+Do not make it sound like everyone must subscribe.
+Show that clients can choose:
+- one-time website build + handoff
+- monthly managed website
+- custom documents/forms
+- long-term contract support
+
+NAVIGATION UPDATE:
+
+Use this public nav:
+
+- Home
+- Services
+- Managed Websites
+- Client Platform
+- Pricing
+- Start a Project
+- Client Login
+
+Footer:
+- About
+- Contact
+- Privacy
+- Terms
+
+Do not use “Website Care” in the nav.
+
+HOMEPAGE UPDATE:
+
+Homepage should stay clean, but the service paths need to be clearer.
+
+Hero headline:
+Your website, built and managed with structure.
+
+Alternative:
+Websites, updates, and client systems managed in one place.
+
+Support line:
+Aalia builds professional websites and gives clients organized options for handoff, monthly management, custom documents, and long-term digital support.
+
+Primary CTA:
+Start a project
+
+Secondary CTA:
+View services
+
+Hero dashboard preview should show:
+- Website online
+- Domain connected
+- SSL active
+- Update request open
+- Client files ready
+- Square invoice paid
+- Approved edits available
+
+Label:
+Sample client platform preview
+
+CORE SERVICE SECTION:
+
+Replace the old 3-card section with 4 service paths.
+
+Section title:
+Choose the support level your business needs.
+
+Cards/panels:
+
+1. Website Project
+A custom website or redesign built for your business, then prepared for handoff.
+
+2. Managed Website
+Ongoing website management for updates, files, domain notes, SSL checks, invoices, and support.
+
+3. Custom Documents + Forms
+Branded fillable forms, intake documents, PDFs, email templates, service agreements, and business files.
+
+4. Long-Term Support Contract
+Ongoing digital support for businesses that need a steady website and systems partner.
+
+Make these look serious and premium.
+Do not make them all identical squares.
+Use different layout treatments, subtle numbering, or horizontal panels.
+
+CLIENT PLATFORM SECTION:
+
+Keep the client platform, but explain it better.
+
+Headline:
+A private platform for managed clients.
+
+Support:
+Clients can view website status, submit requests, upload files, view invoices, manage subscriptions, and edit approved content areas without touching code.
+
+Show dashboard preview:
+- Website
+- Requests
+- Files
+- Invoices
+- Subscriptions
+- Approved Edits
+- Support
+
+BRAND-SAFE EDITING SECTION:
+
+Keep this feature.
+
+Headline:
+Edit approved content without breaking your website.
+
+Support:
+Managed clients can update approved text, images, hours, announcements, and service details while the layout, code, colors, spacing, and brand system stay protected.
+
+Flow:
+1. Choose an approved section
+2. Edit and preview
+3. Publish or submit for review
+
+VISUAL EXAMPLES SECTION:
+
+The site still needs stronger visual examples.
+
+Create a section called:
+Aalia in Practice
+
+or:
+Systems on Display
+
+Show 4 visual examples, but make them look like serious displays, not tiles.
+
+1. Website Build + Handoff
+Visual:
+Desktop/mobile website preview, page list, handoff checklist, brand notes.
+
+2. Managed Website Platform
+Visual:
+Dashboard showing website status, domain, SSL, requests, files, invoices, and approved edits.
+
+3. Custom Documents + Forms
+Visual:
+Fillable form, intake document, branded PDF, email template, approval form.
+
+4. Long-Term Digital Support
+Visual:
+Support timeline, monthly tasks, open requests, completed updates, client notes.
+
+Make these visuals large, intentional, and polished.
+Do not use stock photos.
+Do not use generic laptop mockups.
+Do not use little clip-art icons.
+Do not use a repeated grid of identical cards.
+
+PRICING PAGE FIX:
+
+The pricing page currently repeats the same square/card design too much.
+
+Remove duplicate repetitive cards.
+
+Use 4 clear service model options:
+
+1. Website Project
+One-time build or redesign.
+Placeholder: Starting at $___
+
+2. Managed Website
+Monthly website management.
+Placeholder: Monthly from $___
+
+3. Custom Documents + Forms
+Forms, branded PDFs, email templates, and business files.
+Placeholder: Custom quote
+
+4. Long-Term Support Contract
+Ongoing support for businesses that need regular website and digital systems help.
+Placeholder: Contract quote
+
+Below those, use a compact add-ons section, not more cards.
+
+Add-ons:
+- Extra website pages
+- Fillable forms
+- Email templates
+- Basic SEO setup
+- Domain/hosting coordination
+- Client platform setup
+- Additional update requests
+
+Do not repeat the same square pattern over and over.
+
+SERVICES PAGE FIX:
+
+Organize the Services page by service path.
+
+Use sections or accordions:
+
+1. Website Projects
+- New websites
+- Redesigns
+- Mobile-friendly pages
+- Contact/inquiry flow
+- Handoff support
+
+2. Managed Websites
+- Updates
+- Requests
+- Domain notes
+- SSL notes
+- File organization
+- Square invoice/subscription tracking
+- Client platform access
+
+3. Custom Documents + Forms
+- Fillable forms
+- Intake forms
+- Branded PDFs
+- Email templates
+- Service agreements
+- Business document cleanup
+
+4. Long-Term Support
+- Ongoing digital support
+- Website updates
+- Document support
+- Platform support
+- Monthly task planning
+- Client communication support
+
+Do not display all details at once.
+Use accordions or expandable sections.
+
+LANGUAGE RULES:
+
+Replace:
+Website Care
+
+With:
+Managed Websites
+Website Management
+Monthly Website Management
+Website Support
+
+Use plain, serious wording.
+
+Avoid:
+- cute wording
+- fake startup language
+- vague business buzzwords
+- “all-in-one” if it sounds fake
+- “care” as the main label
+
+SECURITY / PAYMENT WORDING:
+
+For Square:
+Payments are handled through Square. Aalia does not store card data.
+
+For domain/hosting:
+Aalia can coordinate domain and hosting details, but clients keep ownership of their accounts unless a separate agreement says otherwise.
+
+For healthcare-adjacent clients:
+Do not imply Aalia stores PHI.
+Do not imply Aalia is an EHR.
+Do not imply Aalia handles patient records.
+
+TESTING:
+
+After edits:
+- Run the app
+- Check desktop layout
+- Check mobile layout
+- Check nav
+- Check pricing page
+- Check services page
+- Make sure “Website Care” is removed from main nav/headings
+- Make sure gold accents are removed
+- Make sure text contrast is stronger
+
+REPORT BACK:
+
+Tell me:
+1. Files changed
+2. What wording was replaced
+3. What design changes were made
+4. What pages were updated
+5. What still uses sample data
+6. What was tested
+7. Any errors or warnings

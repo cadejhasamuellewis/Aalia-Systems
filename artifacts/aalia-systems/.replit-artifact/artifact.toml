@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "Aalia Systems"
+version = "1.0.0"
+id = "artifacts/aalia-systems"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 26107
+
+[services.development]
+run = "pnpm --filter @workspace/aalia-systems run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/aalia-systems", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/aalia-systems/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "26107"
+BASE_PATH = "/"
