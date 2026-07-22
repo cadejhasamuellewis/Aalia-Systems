@@ -1,0 +1,43 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+  <!-- Aalia Systems Icon/Mark -->
+  
+  <defs>
+    <filter id="iconGlow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background circle (optional - remove if you want transparent only) -->
+  <!-- <circle cx="100" cy="100" r="95" fill="#2B2C34" opacity="0.05"/> -->
+  
+  <!-- Main "A" geometric form -->
+  <g id="icon-a">
+    <!-- Left diagonal -->
+    <path d="M 35 170 L 100 35 L 110 35 L 175 170 Z" fill="#2B2C34" stroke="none"/>
+    
+    <!-- Right side -->
+    <polygon points="100,35 110,35 155,170 145,170" fill="#2B2C34"/>
+    
+    <!-- Horizontal bar -->
+    <rect x="50" y="95" width="100" height="14" fill="#2B2C34" rx="2"/>
+    
+    <!-- Binary pattern (0101) -->
+    <g font-family="'Space Grotesk', monospace" font-size="11" font-weight="700" fill="#00E5FF" opacity="0.8">
+      <text x="70" y="70">0</text>
+      <text x="100" y="80">1</text>
+      <text x="80" y="95">0</text>
+      <text x="110" y="105">1</text>
+    </g>
+  </g>
+  
+  <!-- Cyan accent dot (top right) -->
+  <circle cx="140" cy="50" r="14" fill="#00E5FF" filter="url(#iconGlow)"/>
+  
+  <!-- Subtle glow outline -->
+  <circle cx="100" cy="100" r="90" fill="none" stroke="#00E5FF" stroke-width="1.5" opacity="0.25"/>
+  
+</svg>
