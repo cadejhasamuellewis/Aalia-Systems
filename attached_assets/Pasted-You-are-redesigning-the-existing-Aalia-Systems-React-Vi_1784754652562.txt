@@ -1,0 +1,464 @@
+You are redesigning the existing Aalia Systems React/Vite website.
+
+IMPORTANT:
+Do not deploy.
+Do not publish.
+Do not add paid services.
+Do not connect real Square, Firebase, Google, or analytics yet.
+Do not add secrets or API keys.
+Do not delete the whole app.
+
+FIRST:
+Inspect the current project structure and summarize what you find before editing.
+
+Current known structure:
+- src/app/App.tsx
+- src/app/components/layout/PublicLayout.tsx
+- src/app/pages/public/Home.tsx
+- src/app/pages/public/Services.tsx
+- src/app/pages/public/Care.tsx
+- src/app/pages/public/PlatformOverview.tsx
+- src/app/pages/public/Pricing.tsx
+- src/app/pages/public/WorkSystems.tsx
+- src/app/pages/public/Start.tsx
+- src/app/pages/public/About.tsx
+- src/app/pages/public/Contact.tsx
+- src/app/pages/platform/Overview.tsx
+- src/app/pages/platform/BrandSafeEdit.tsx
+- src/app/pages/platform/Invoices.tsx
+- src/app/pages/platform/Subscriptions.tsx
+- src/styles/theme.css
+- src/styles/globals.css
+- src/app/data/mock.ts
+
+Create a checkpoint before editing.
+
+PROJECT:
+Aalia Systems
+
+GOAL:
+Redesign the public website and client platform preview so it feels like a serious boutique website management studio, not a fake SaaS template, not Canva, not Alibaba, not a crowded service marketplace.
+
+CURRENT BUSINESS SCOPE:
+Keep the public website focused on:
+
+1. Website builds
+2. Monthly website care
+3. Client platform
+4. Brand-safe client edits
+5. Business documents/forms as add-ons
+6. Domain + hosting coordination under website care
+7. Square invoices/subscriptions as planned integration
+
+Do NOT make POS a main homepage feature right now.
+Do NOT make a giant service marketplace.
+Do NOT design the owner/personal workstation.
+Do NOT create fake claims, fake clients, fake testimonials, fake metrics, or fake certifications.
+
+BRAND FEEL:
+Serious
+Clean
+Premium
+Warm
+Technical
+Calm
+Woman-owned
+Organized
+Trustworthy
+Design-led
+
+VISUAL STYLE:
+Use a frosted systems-management design direction.
+
+Color palette:
+- Pearl
+- Cream
+- Soft ice blue
+- Deep aqua
+- Warm charcoal
+- Slate blue
+- Muted copper/gold accent
+
+Keep the soft frosted background style:
+- Pearl / cream base
+- Soft ice-blue gradient wash
+- Deep aqua tint
+- Warm cream
+- Frosted panels
+- Soft borders
+- Subtle shadows
+- Lots of breathing room
+
+Avoid:
+- Stock business photos
+- Generic laptop mockups
+- Clip-art icons
+- Random website tiles
+- Busy grids
+- Purple tech design
+- Overly rounded childish fonts
+- Fake dashboard overload
+- Repeated square cards everywhere
+
+TYPOGRAPHY:
+Create a more serious font system.
+
+Use:
+- A refined headline font
+- A clean modern body font
+- Small uppercase section labels
+- Strong spacing
+- Clear hierarchy
+
+Do not use typography that feels default, childish, bubbly, or too template-like.
+
+LOGO / WORDMARK:
+Remove the clip-art icon next to “Aalia Systems.”
+
+Use a text-only wordmark.
+
+Text:
+Aalia Systems
+
+Subline may be:
+website management studio
+
+or:
+digital design + website care
+
+No diamond icon.
+No sparkle icon.
+No random abstract icon.
+No clip-art mark.
+
+NAVIGATION:
+Simplify public nav.
+
+Top nav:
+- Home
+- Services
+- Website Care
+- Client Platform
+- Pricing
+- Start a Project
+- Client Login
+
+Footer links:
+- About
+- Contact
+- Privacy
+- Terms
+
+If routes like Branding, POS, and WorkSystems already exist, do not delete them unless needed, but remove them from the main nav for now. They can remain as future/hidden routes or be linked from add-ons if appropriate.
+
+HOMEPAGE REDESIGN:
+
+Keep homepage sections limited to:
+
+1. Hero
+2. Three core offers
+3. Client platform preview
+4. Brand-safe editing
+5. Visual examples / displays
+6. Pricing preview
+7. Final CTA
+
+Do not add more homepage sections.
+
+HERO:
+
+Headline:
+Your website, managed after launch.
+
+Support:
+Aalia builds professional websites and gives monthly clients a private platform for updates, files, invoices, and approved content edits.
+
+Primary CTA:
+Start a project
+
+Secondary CTA:
+View monthly care
+
+Hero visual:
+Create a serious frosted dashboard preview.
+
+Show only:
+- Website online
+- Domain connected
+- SSL active
+- Monthly care active
+- Approved edits available
+- Invoice paid through Square
+
+Label:
+Sample client dashboard preview
+
+THREE CORE OFFERS:
+
+Use only 3 refined cards or panels:
+
+1. Build
+Custom websites and redesigns for small businesses.
+
+2. Manage
+Monthly website care, update support, domain notes, SSL checks, and simple reports.
+
+3. Platform
+A private client dashboard for files, invoices, subscriptions, requests, and approved edits.
+
+Do not list 20 features in each card.
+
+CLIENT PLATFORM PREVIEW:
+
+Create a clean dashboard preview that feels useful for a small business owner.
+
+Show:
+- Website status
+- Requests
+- Files
+- Invoices
+- Subscriptions
+- Approved content edits
+- Support
+
+Do not make it look like complex enterprise software.
+
+BRAND-SAFE EDITING SECTION:
+
+This is a major feature.
+
+Headline:
+Edit approved content without breaking your website.
+
+Support:
+Monthly clients can update approved text, images, hours, announcements, and service details while the layout, code, spacing, colors, and brand system stay protected.
+
+Create a mini interface mockup:
+- Page: Home
+- Section: Announcement Bar
+- Editable field: Holiday hours
+- Status: Draft
+- Buttons: Preview, Save Draft, Submit for Review
+
+Show 3-step flow:
+1. Choose an approved section
+2. Edit and preview
+3. Publish or submit for review
+
+Protected:
+- Code
+- Layout
+- Colors
+- Fonts
+- Spacing
+- Hosting
+- DNS
+- Payment settings
+
+VISUAL EXAMPLES / DISPLAYS:
+
+The homepage needs actual visual examples, but not generic tiles.
+
+Create a section that feels like a curated studio display or museum wall.
+
+Section title:
+Systems on Display
+
+Support:
+A closer look at what Aalia can build, organize, and manage.
+
+Use 4 large visual displays only:
+
+1. Custom Website Build
+Visual:
+A polished coded website preview with desktop and mobile views, page list, and brand notes.
+
+Use:
+The Beauty & Serenity Hair Restoration Center
+
+Label:
+Real Project / In Development
+
+Show:
+- Custom coded website
+- Service pages
+- Inquiry/contact flow
+- Brand direction
+- No PHI stored on the website
+
+2. Monthly Website Care
+Visual:
+A website care status panel showing:
+- Website online
+- Domain connected
+- SSL active
+- Form check
+- Mobile check
+- Latest update
+- Monthly care note
+
+3. Client Platform
+Visual:
+A client dashboard preview showing:
+- Requests
+- Files
+- Invoices
+- Subscriptions
+- Approved edits
+- Support
+
+4. Business Documents + Forms
+Visual:
+A curated document display showing:
+- Fillable form
+- Intake document
+- Email template
+- Branded PDF
+- Approval form
+
+Do not use stock photos.
+Do not use generic website cards.
+Do not use repeated square cards.
+Make these feel like intentional product/service exhibits.
+
+SERVICES PAGE REDESIGN:
+
+The current Services page feels too much like a grid of equal cards. Redesign it.
+
+Use grouped service sections with accordions or large horizontal panels.
+
+Groups:
+
+1. Website Builds
+- New websites
+- Redesigns
+- Mobile-friendly pages
+- Contact/inquiry flow
+- Basic SEO setup
+
+2. Monthly Website Care
+- Update support
+- Website checks
+- SSL/domain notes
+- Monthly care report
+- Client platform access
+
+3. Client Platform
+- Requests
+- Files
+- Invoices
+- Subscriptions
+- Approved edits
+- Support
+
+4. Business Documents + Forms
+- Fillable forms
+- Intake documents
+- Email templates
+- Branded PDFs
+- Approval forms
+
+5. Domain + Hosting Coordination
+- Domain notes
+- Renewal reminders
+- SSL notes
+- Hosting coordination
+- Provider records
+
+Do not show everything expanded at once.
+
+PRICING PAGE FIX:
+
+The current pricing page repeats the same squares/cards too much.
+
+Remove duplicate/repeated plan cards.
+
+Use exactly 3 main plan cards:
+
+1. Website Project
+For a new website or redesign.
+
+2. Monthly Website Care
+For update support, care notes, domain/SSL tracking, and simple reports.
+
+3. Managed Website + Client Platform
+For monthly care plus client dashboard access, approved edits, files, invoices, subscriptions, and support.
+
+Below those, show add-ons in a compact list or accordion, not more cards.
+
+Add-ons:
+- Business documents
+- Fillable forms
+- Email templates
+- Extra pages
+- Basic SEO setup
+- Domain/hosting coordination
+
+Use placeholder prices only:
+Starting at $___
+Monthly from $___
+Custom quote
+
+CLIENT PLATFORM PAGES:
+
+Keep platform pages, but make the visual style cleaner and less fake.
+
+Dashboard pages to preserve:
+- Client login
+- Dashboard overview
+- Brand-safe content editor
+- Requests
+- Files
+- Invoices
+- Subscriptions
+- Settings
+
+Client dashboard should feel:
+- Simple
+- Serious
+- Small-business friendly
+- Not enterprise overload
+
+SQUARE PAYMENT NOTE:
+Payments are handled through Square. Aalia does not store card data.
+
+SECURITY / COMPLIANCE:
+Do not imply:
+- Aalia stores PHI
+- Aalia stores card data
+- Aalia gives legal, tax, accounting, or clinical advice
+- Aalia guarantees SEO rankings
+- Aalia guarantees full cybersecurity
+
+Use:
+- Website management
+- Setup coordination
+- Hosted Square payment flow
+- Client-controlled systems
+- Security-minded maintenance
+- Educational SEO resources
+
+TECHNICAL REQUIREMENTS:
+- Keep React/Vite working.
+- Preserve routing unless simplifying nav.
+- Do not introduce unnecessary dependencies.
+- Use existing components where helpful, but rewrite sections that look generic.
+- Update theme/style files as needed.
+- Make desktop and mobile responsive.
+- Remove unused imports if changes create warnings.
+- Run the app after changes.
+- Run build/type check if available.
+
+REPORT BACK:
+After editing, report:
+
+1. Files changed
+2. What changed
+3. What was removed
+4. What still uses sample data
+5. What is only a visual placeholder
+6. What was tested
+7. Any errors or warnings
+8. What should be reviewed next
+
+Do not claim anything is fully functional, connected, secure, deployed, or production-ready unless actually verified.
